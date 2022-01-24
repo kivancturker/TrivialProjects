@@ -16,7 +16,7 @@ public class Main {
 		try {
 			// It works with valid information. 
 			// SSN and date of birth is incorrect in this example.
-			customerManager.save(new Customer(1, "Kıvanç", "Türker", LocalDate.of(1997, 1, 30), "99988855111"));
+			customerManager.save(new Customer(1, "Kıvanç", "Türker", LocalDate.of(1997, 1, 30), "99988822555"));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
